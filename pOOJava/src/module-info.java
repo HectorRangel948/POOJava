@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author hecto
+ *
+ */
+module pOOJava {
+}
