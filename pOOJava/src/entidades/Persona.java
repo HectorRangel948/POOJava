@@ -1,3 +1,29 @@
+
+/*
+ * Notas para trabajar con POO en JAVA
+ * 
+ * 1.-Establecemos los pasos para trabajar con nuestras clases definiendo el siguiente orden:
+ * -Primero nuestras propiedades o atributos usando variables de JAVA
+ * -Definimos un constructor con parámetros
+ * 
+ * Constructor por default, 
+ * Creando un contructor en persona que tinenen como trabajo tomar en cuenta los parámetros que se le están pasando y crear un objeto basado en ellos
+ * Definimos un constructor con parámetros (se define en la clase)
+ * También tenemos un constructor por defecto que se define en la instancia de la clase, el inconveniente es que solo podemos usar uno de los dos
+ * 
+ * Por último definimos los métodos que nuestro objeto va a utilizar. Aquí utilizamos la teoría de funciones (functiones vacías, funciones que terornan un tipo de valor)
+ *
+ * Notas adicionales
+ * 
+ * Sobrecarga de métodos
+ * 
+ * La finalidad de la sobrecarga de métodos es utilizar el mismo nombre del método (Persona) e ir variando sus parámetros, con esto evitamos usar "Persona1", "Persona2", etc. para utilizar el mismo método 
+ * 
+ * Hay que recordar que los datos generalmente vienen del front (formulario). La sobrecarga nos ayuda en comprender distintas situaciones donde al vez uno de los campos solicitados en el formulario no sea requerido u obligatorio de llenar. Utilizando la sobrecarga, evitamos que el dato se asigne incorrectamente (es decir, que quede como indefinido), ya que esto podria acarrear errores en la ejecucion de nuestro codigo. De preferencia, es mejor que el dato quede como nulo.  
+ *  
+ * */
+
+
 package entidades;
 
 public class Persona {
